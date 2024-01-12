@@ -1,0 +1,29 @@
+/* styles.css */
+:root {
+    --primary: #011640;
+    --secondary: #c60018;
+    --font-color: #08090d;
+    --green: #006600;
+    --Red: #BB0000;
+    --black: #000000;
+    --blue: #00ADEE;
+    --grey: #f2eeee;
+    --ff-primary: "Montserrat", sans-serif;
+}
+
+.bgKemis{
+
+        background-color: #00ADEE;
+        color: #f2eeee;
+        flex: auto;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1500;
+    }
+
+.bgPrimary{
+    background-color: #011640;
+    color: #f2eeee;
+}

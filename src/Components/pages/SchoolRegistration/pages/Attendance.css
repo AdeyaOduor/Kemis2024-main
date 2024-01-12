@@ -1,0 +1,53 @@
+/* App.css */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  input[type='text'],
+  input[type='checkbox'],
+  button {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the "Mark All Present" button */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the table headers */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for the table rows */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for the checkboxes */
+  input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  

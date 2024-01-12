@@ -1,0 +1,39 @@
+@import '../../../Style.css';
+
+
+.formBground {
+    background-color: bisque;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;     
+}
+
+input {
+    margin-top: 0.125rem;
+    padding: 0.125rem;
+    width: 100%;
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #e5e7eb;  
+}
+
+label {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+    font-size: 0.875rem;
+    display: block;
+
+}
+
+h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 2rem 0 2rem ;
+    
+}
+
+hr {
+    border-color: gray;
+}

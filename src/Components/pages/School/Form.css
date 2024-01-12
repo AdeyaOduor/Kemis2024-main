@@ -1,0 +1,77 @@
+@import '../../../Style.css';
+
+@media (min-width: 640px) {
+    .col-span-3 {
+      grid-column: span 3;
+    }
+  }
+
+.formBground {
+    background-color: bisque;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;     
+}
+
+input {
+    margin-top: 0.125rem;
+    padding: 0.125rem;
+    width: 100%;
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #e5e7eb;  
+}
+
+label {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+    font-size: 0.875rem;
+    display: block;
+
+}
+
+h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 2rem 0 2rem ;
+    
+}
+
+hr {
+    border-color: gray;
+    margin-top: 4px;
+}
+
+value{
+    color: rgb(73, 73, 73);
+}
+
+
+#btnLearner, #btnTransfer {
+    --tw-bg-opacity: 1;
+    background-color: #00ADEE;
+    padding: 0.25rem 1rem;
+    margin-top: 0.45rem;
+    font-size: medium;
+}
+
+#inputBase {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 8rem;
+    appearance: none;
+    background-color: #fff;
+    border-color: #6b7280;
+    border-width: 1px;
+    border-radius: 0px;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    --tw-shadow: 0 0 #0000;
+}
+
