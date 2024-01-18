@@ -33,7 +33,7 @@ function LearnersRegistration() {
                 </strong><br />          
               <span className="text-3xl">We understand the challenges of traditional manual registration
               processes. That's why we're excited to introduce a groundbreaking
-              solution that will transform the way you handle student
+              solution that will transform the way you handle Learners
               registrations.</span></p>
           </div>
         </div>
